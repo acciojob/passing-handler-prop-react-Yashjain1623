@@ -36,7 +36,7 @@ const applyColor = (updateSelectionStyle) => {
 
       <div className="row">
         {colourConfig.map((config, index) => (
-          <ColourSelector key={config.key} config={config} selectNextBackground={selectNextBackground} />
+          <ColourSelector color={config.key} key={config.key} config={config} selectNextBackground={selectNextBackground} />
         ))}
       </div>
 
